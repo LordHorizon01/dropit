@@ -1,0 +1,55 @@
+# Dependencies and generated package/build output
+**/node_modules/
+**/.expo/
+**/dist/
+**/build/
+**/web-build/
+**/.next/
+**/coverage/
+**/.turbo/
+**/.cache/
+**/tmp/
+**/temp/
+
+# Private local reports and working documents (keep files on disk)
+/reports/
+/output/
+
+# Environment variables and local secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+**/secrets/
+**/credentials/
+**/*credentials*.json
+**/*secret*
+**/*apikey*
+**/*api-key*
+
+# Private keys, certificates, signing material, and keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*.cer
+*.crt
+
+# Local editor and operating-system files
+**/.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Expo generated files and native build directories
+**/expo-env.d.ts
+**/.metro-health-check*
+/apps/mobile/ios/
+/apps/mobile/android/
